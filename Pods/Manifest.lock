@@ -1,0 +1,15 @@
+PODS:
+  - Cordova (4.5.4)
+  - phonegap-ios-template (0.2.4)
+
+DEPENDENCIES:
+  - Cordova
+  - phonegap-ios-template
+
+SPEC CHECKSUMS:
+  Cordova: 90a337977b8667a80483f559268c82062b1183da
+  phonegap-ios-template: 959c4431097a71f55621f65aa1fe33573d09a4fc
+
+PODFILE CHECKSUM: 523545086fd180440d3688f8041db8c63424d151
+
+COCOAPODS: 1.4.0.beta.2

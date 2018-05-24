@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NavPush\"><param name=\"ios-package\" value=\"NavPush\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.lj.navpush": {
+            "PACKAGE_NAME": "com.lj.navpush"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.lj.navpush"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com.lj.navpush.NavPush",
+            "file": "plugins/com.lj.navpush/www/NavPush.js",
+            "pluginId": "com.lj.navpush",
+            "clobbers": [
+                "cordova.plugins.NavPush"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "com.lj.navpush": "1.0.0",
+        "cordova-plugin-whitelist": "1.3.3"
+    }
+}
